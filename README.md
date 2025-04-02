@@ -38,7 +38,7 @@ Incluye información detallada sobre:
 
 #### 📥 Extraer
 
-Primero usé Power Query para extraer los datos originales (`data_salary_all.xlsx`) y crear dos consultas:
+Primero usé Power Query para extraer los datos originales (`1_Project_Analysis.xlsx`) y crear dos consultas:
 
 - 🗃️ La primera contiene toda la información de los puestos de trabajo.
 
@@ -47,24 +47,25 @@ Primero usé Power Query para extraer los datos originales (`data_salary_all.xls
 #### 🔄 Transformar
 
 - Luego, transformé cada consulta cambiando los tipos de columna, eliminando columnas innecesarias, limpiando el texto para eliminar palabras específicas y eliminando el exceso de espacios en blanco.
+
 - 📊 data_jobs_all
 
-        ![2_Project_Analysis_Screenshot1.png](/0_Resources/Images/2_Project_Analysis_Screenshot1.png)
+![2_Project_Analysis_Screenshot1.png](2_Project_Analysis_Screenshot1.png)
 
     - 🛠️ data_job_skills
 
-        ![2_Project_Analysis_Screenshot2.png](/0_Resources/Images/2_Project_Analysis_Screenshot2.png)
+![2_Project_Analysis_Screenshot2.png](2_Project_Analysis_Screenshot2.png)
 
 #### 🔗 Cargar
 
 - Finalmente, cargué ambas consultas transformadas en el workbook, sentando las bases para mi análisis posterior.
     - 📊 data_jobs_all
 
-        ![2_Project_Analysis_Screenshot3.png](/0_Resources/Images/2_Project_Analysis_Screenshot3.png)
+ ![2_Project_Analysis_Screenshot3.png](2_Project_Analysis_Screenshot3.png)
 
     - 🛠️ data_job_skills
 
-        ![2_Project_Analysis_Screenshot4.png](/0_Resources/Images/2_Project_Analysis_Screenshot4.png)
+![2_Project_Analysis_Screenshot4.png](2_Project_Analysis_Screenshot4.png)
 
 ### 📊 Analisis
 
@@ -73,7 +74,7 @@ Primero usé Power Query para extraer los datos originales (`data_salary_all.xls
 - 📈 Existe una correlación positiva entre la cantidad de habilidades solicitadas en las ofertas de empleo y el salario medio, especialmente en puestos como Ingeniero de Datos Sénior y Científico de Datos.
 - 💼 Los puestos que requieren menos habilidades, como Analista de Negocios, tienden a ofrecer salarios más bajos, lo que sugiere que las habilidades más especializadas tienen un mayor valor de mercado.
 
-    ![2_Project_Analysis_Chart1.png](/0_Resources/Images/2_Project_Analysis_Chart1.png)
+![2_Project_Analysis_Chart1.png](2_Project_Analysis_Chart1.png)
 
 #### 🤔 
 
@@ -109,7 +110,7 @@ Esta tendencia enfatiza la importancia de adquirir múltiples habilidades releva
 - 💼 Los puestos de trabajo como senior data engineer y data scientists tienen salarios medios más altos tanto en EE. UU. como a nivel internacional, lo que demuestra la demanda global de experiencia en datos de alto nivel.
 - 💰 La disparidad salarial entre los empleos estadounidenses y no estadounidenses es particularmente notable en los empleos de alta tecnología, lo que podría estar influenciado por la concentración de industrias tecnológicas en Estados Unidos.
 
-    ![2_Project_Analysis_Chart2.png](/0_Resources/Images/2_Project_Analysis_Chart2.png)
+![2_Project_Analysis_Chart2.png](2_Project_Analysis_Chart2.png)
 
 #### **🤔 Entonces**
 
@@ -128,13 +129,13 @@ Esta tendencia enfatiza la importancia de adquirir múltiples habilidades releva
 
 - Creé una relación entre mis dos tablas usando la columna `job_id`.
 
-    ![2_Project_Analysis_Screenshot5.png](/0_Resources/Images/2_Project_Analysis_Screenshot5.png)
+![2_Project_Analysis_Screenshot5.png](2_Project_Analysis_Screenshot5.png)
 
 #### 📃 Power Pivot Menu
 
 - El menú de Power Pivot se utilizó para refinar mi Data model y facilita la creación de medidas.
 
-    ![2_Project_Analysis_Screenshot6.png](/0_Resources/Images/2_Project_Analysis_Screenshot6.png)
+![2_Project_Analysis_Screenshot6.png](2_Project_Analysis_Screenshot6.png)
 
 ### 📊Analisis
 
@@ -144,7 +145,7 @@ Esta tendencia enfatiza la importancia de adquirir múltiples habilidades releva
 - ☁️ Las tecnologías emergentes como AWS y Azure también muestran una presencia significativa, lo que subraya el cambio de la industria hacia los servicios en la nube y 
       las tecnologías de big data.
 
-    ![2_Project_Analysis_Chart3.png](/0_Resources/Images/2_Project_Analysis_Chart3.png)
+![2_Project_Analysis_Chart3.png](2_Project_Analysis_Chart3.png)
 
 #### 🤔 Entonces..
 
@@ -171,7 +172,7 @@ Esta tendencia enfatiza la importancia de adquirir múltiples habilidades releva
 - 📉 Habilidades como PowerPoint y Word tienen los salarios medios más bajos y la probabilidad más baja, lo que indica una menor especialización y demanda en sectores 
       con salarios altos.
 
-    ![2_Project_Analysis_Chart4.png](/0_Resources/Images/2_Project_Analysis_Chart4.png)
+ ![2_Project_Analysis_Chart4.png](2_Project_Analysis_Chart4.png)
 
 ### 🤔Entonces..
 
